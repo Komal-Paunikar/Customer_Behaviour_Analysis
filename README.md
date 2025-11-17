@@ -118,4 +118,3 @@ Product Positioning: Highlight top-rated items like Gloves and best-selling cate
 * Dashboard & Visualization
 Insights are presented through an interactive dashboard built in Power BI .
 
-Would you like me to elaborate on any of the business recommendations or provide the specific SQL queries used for the analysis?
