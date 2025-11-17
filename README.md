@@ -56,6 +56,8 @@ Open customer_behavior_dashboard.pbix
 
 Create interactive dashboard in Power BI
 
+![image alt](https://github.com/Komal-Paunikar/Customer_Behaviour_Analysis/blob/ef9c725cb8584dbbddeb0b8412deb371d3a1e9de/dasboard_customer_behavior_pitcure.PNG)
+
 Create Project Report and Presentation
 
 Create project report
