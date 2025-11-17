@@ -1,120 +1,64 @@
-# Customer_Behaviour_Analysis
-Customer Shopping Behavior Analysis
-Project Overview
-This project analyzes customer shopping behavior using a dataset of 3,900 transactional purchases to uncover key insights into spending patterns, product preferences, customer segmentation, and subscription behavior. The findings aim to support strategic business decisions.
+# Customer_Shopping_Behaviour_Analysis
 
-* Key Findings & Insights
-Revenue & Spending Patterns
+👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
+This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
-Gender Revenue: Male customers generated significantly higher revenue ($157,890) compared to Female customers ($75,191).
+This project is perfect for:
 
+📊 Data Analyst aspirants who want to build a strong Portfolio Project for interviews and LinkedIn
+📚 Anyone learning Python, SQL, and Power BI
+💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
 
+📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-Age Group Revenue: Young Adults contributed the highest total revenue ($62,143), followed by the Middle-aged group ($59,197).
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
 
 
-Shipping Preference: The average purchase amount for Express shipping ($60.48) was slightly higher than for Standard shipping ($58.46).
+🛠️ How to Use This Project
+Clone the repository
 
+git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+cd customer-trends-data-analysis-SQL-Python-PowerBI
+Open Customer_Shopping_Behavior_Analysis.ipynb notebook
 
-Subscription: Non-subscribers generated a higher total revenue ($170,436) and had a slightly higher average spend ($59.87) than subscribers.
+This file contains:
 
-Product & Preference Analysis
+Data Import
 
-Top 5 Products by Rating: Gloves had the highest average rating (3.86), followed by Sandals (3.84) and Boots (3.82).
+Data exploration
 
+Data cleaning
 
+Connection to SQL Database
 
+Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
 
-Discount-Dependent Products: Hat had the highest percentage of discounted purchases (50.00%), indicating high discount sensitivity.
+Create a database in SQL
 
-Top Category Products:
+Run Python code to load data into SQL database
 
+Open customer_behavior_sql_queries.sql
 
-Accessories: Jewelry, Sunglasses, Belt.
+Answer Business Questions using SQL Queries
 
+Connect the SQL Database to Power BI
 
+Open customer_behavior_dashboard.pbix
 
+Create interactive dashboard in Power BI
 
-Clothing: Blouse, Pants, Shirt.
+Create Project Report and Presentation
 
+Create project report
 
+Build presentation deck using Gamma AI
 
-
-Footwear: Sandals, Shoes, Sneakers.
-
-
-
-
-Outerwear: Jacket, Coat.
-
-
-
-Customer Segmentation & Loyalty
-
-Customer Segments: The majority of customers are classified as Loyal (3,116 customers), with a smaller number of Returning (701) and New (83) customers.
-
-
-Repeat Buyers & Subscription: A large number of repeat buyers (customers with >5 purchases) do not have a subscription (2,518).
-
-
-* Methodology
-The project utilized a structured two-phase approach:
-
-1. Exploratory Data Analysis (EDA) in Python
-
-Data Cleaning: Handled 37 missing values in the Review Rating column by imputing with the median rating per product category.
-
-
-
-Feature Engineering: Created age_group and purchase_frequency_days columns.
-
-
-Standardization: Renamed columns to snake case and dropped the redundant promo_code_used column.
-
-
-
-Database Integration: Loaded the cleaned data into PostgreSQL for detailed SQL analysis.
-
-2. Structured Data Analysis in SQL (SSMS)
-Key Business Questions Answered:
-
-Revenue by Gender and Age Group.
-
-
-High-Spending Discount Users identification.
-
-Product performance by Rating and Discount dependency.
-
-
-Shipping Type and Subscription status comparison.
-
-
-Customer Segmentation.
-
-* Business Recommendations
-Based on the analysis, the following strategic actions are recommended:
-
-
-Boost Subscriptions: Promote exclusive benefits to convert the large base of non-subscribing repeat buyers.
-
-
-
-Customer Loyalty Programs: Implement a program to reward repeat buyers and solidify their status in the "Loyal" segment.
-
-
-Targeted Marketing: Focus marketing efforts on Young Adults and Male customers as they are the highest revenue-contributing segments.
-
-
-
-
-Product Positioning: Highlight top-rated items like Gloves and best-selling category items in campaigns.
-
-
-
-* Dashboard & Visualization
-Insights are presented through an interactive dashboard built in Power BI .
-
+💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
