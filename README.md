@@ -22,6 +22,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 
 
+![image alt](https://github.com/Komal-Paunikar/Customer_Behaviour_Analysis/blob/4a1980965b7de547a57f4900653ff543309bcd0c/overview_customer_behaviour_analysis.png)
 🛠️ How to Use This Project
 Clone the repository
 
